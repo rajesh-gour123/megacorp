@@ -1,0 +1,326 @@
+
+*{
+    /* border:1px solid red; */
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+.background-image{
+    width:100%;
+    height:60vh;
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    background-blend-mode:darken;
+}
+.inner{
+    max-width: 1200px;
+    padding: 2rem;
+    margin:0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    padding-left: 1rem;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color:#5385C1;
+    color: #fff;
+    font-weight: 500;
+    margin-top: -7px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5%;
+}
+
+
+/* banner sstart here */
+.banner{
+    text-align: center;
+    margin:0 auto;
+    max-width:700px;
+    padding-top:4rem;
+}
+
+.banner h3{
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+.banner p{
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.9rem;
+}
+
+/* Three section start here */
+
+.container-fluid{
+    background-color: black;
+    color:#fff;
+}
+.three-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.three-section section{
+    width:30%;
+}
+.three-section h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.three-section span{
+    font-size: 3rem;
+    margin:1.8rem 0;
+}
+
+.three-section p{
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    color:lightgray;
+    margin-bottom: 2rem;
+}
+
+/* two section start here */
+.two-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ .left{
+    width:65%;
+}
+
+.left h3{
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin:1.5rem 0;
+}
+
+.left img{
+    width:100%;
+    border-radius: 1%;
+    margin:1rem 0;
+}
+
+.left p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    color: #bdbdbd;
+}
+
+.left a{
+    color:#bdbdbd;
+}
+
+hr{
+    margin: 2.5rem 0;
+
+}
+/* left inner section */
+.left-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-inner section{
+    width:46%;
+}
+
+.space{
+    margin-right:0.5rem;
+    height: 30px;
+}
+
+.left-inner div{
+    margin-bottom: 1.8rem;
+}
+
+.left-inner-leftSection h3{
+    margin-bottom: 0rem;
+}
+
+.left-inner-leftSection p{
+    font-weight: 800;
+}
+
+.left-inner-leftSection li{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #bdbdbd;
+    list-style-position: inside;
+}
+
+.left-inner-leftSection ul h3{
+    font-size: 1.1rem;
+    margin: 0.9rem 0;
+}
+.left-inner-leftSection hr{
+    margin:0px;
+}
+
+
+/* right section start */
+.right{
+    width: 30%;
+}
+.right1{
+    display: flex;
+    justify-content: space-between;
+}
+.right1 div{
+    width:46%;
+}
+
+.right1 h3{
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+    text-align: start;
+    font-weight: 200;
+    color: #dfdfdf;
+}
+
+.right1 li{
+    line-height: 2rem;
+    list-style-position: inside;
+    margin: 0.1rem 0;
+    font-size: 0.9rem;
+    border-bottom: 1px solid gray;
+    color:gray;
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* img section */
+.img-section section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.img-section{
+   margin-top: 2rem;
+}
+
+.img-section img{
+    border-radius: 5%;
+}
+.img-section h3{
+    padding:2rem 0;
+    font-size: 2rem;
+    font-weight: 200;
+    color:gray;
+}
+.img-section p{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.img-section hr{
+    margin: 2rem 0;
+}
+figcaption{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.my-imgsection-bottom{
+    margin-top:2rem;
+}
+
+/* footer start here */
+
+.copy{
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    color:gray;
+}
+.copy span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.footer-hr{
+    margin:1.6rem 0;
+}
+@media only screen and (max-width:700px){
+    nav ul li{
+        padding-left: 0.5rem;
+        font-size:0.9rem;
+    }
+    .logo{
+       text-align: center;
+       width:100%;
+    }
+    .banner{
+        padding-top: 1rem;
+    }
+
+    .banner h3{
+        font-size: 1.2rem;
+    }
+    .banner p{
+        font-size: 0.8rem;
+    }
+    .three-section section{
+        width:100%;
+        margin-bottom: 2rem;
+    }
+    .left{
+        width:100%;
+    }
+    .right{
+        width:100%;
+    }
+
+
+    
+    /* nav{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    } */
+}
